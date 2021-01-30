@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p class="title">cryptocurrency</p>
+    </header>
+    <main>
+        <div class="content">
+            <div class="form">
+                <div class="form-title">cryptocurrency</div>
+                <form action="#">
+
+                    <label for="form-control">currency</label>
+                    <select class="form-control" id="currency">
+                        <option value="" disabled selected>- Select Currency - </option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+                    <label for="form-control">cryptocurrency</label>
+                    <select class="form-control" id="cryptocurrency">
+                        <option value="" disabled selected>- Select Cryptocurrency -</option>
+                        <option value="BTC">Bitcoin</option>
+                        <option value="ETH">Ethereum</option>
+                        <option value="XRP">Ripple</option>
+                    </select>
+
+                    <input type="submit" class="submit">
+                </form>
+            </div>
+            <div class="msg"><p class="p"></p></div>
+            <div class="result">
+               
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+<script src="bitcoin.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

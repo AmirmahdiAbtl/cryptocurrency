@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(219, 163, 78);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+}
+.title{
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    color: #ffffff;
+}
+main{
+    min-height: 100vh;
+    background-color: rgba(240, 248, 255, 0.35);
+}
+.content{
+    display: grid;
+    place-items: center;
+}
+.form{
+    width: 80%;
+    height: 20rem;
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+    padding-top: 2rem;
+}
+form{
+    width: 100%;
+    display: grid;
+    /* place-items: center; */
+    margin-left: 2rem;
+    
+}
+.form-title{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+select{
+    margin-bottom: 2rem;
+    display: block;
+    width: 90%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+.submit{
+    width: 40%;
+    display: grid;
+    padding: 0.5rem;
+    margin: 0 25% !important;
+    background-color: rgb(219, 163, 78);
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: rgb(219, 163, 78);
+}
+.msg{
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    width: 80%;
+    background-color: rgb(255, 123, 123);
+    font-family: 'Roboto' , sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.125rem;
+    color: rgb(129, 1, 1);
+}
+.result{
+    height: auto;
+    width: 80%;
+    background-color:  rgb(219, 163, 78);
+    margin: 2rem 0;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+.result-content{
+    margin-bottom: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+@media all and (max-width: 860px){
+    .item{
+        min-width: 44%;
+        margin: 3rem 1rem;
+    }
+}
+@media all and (max-width: 684px){
+    .item{
+        min-width: 90%;
+        margin: 3rem 1rem;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(219, 163, 78);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
